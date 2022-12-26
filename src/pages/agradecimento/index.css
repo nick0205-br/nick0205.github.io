@@ -1,0 +1,17 @@
+header{
+    background-image:url(../../../../public/img/artistic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 414px){
+    a{display: flex;
+    justify-content: flex end;
+    align-content: row;}
+}
+
