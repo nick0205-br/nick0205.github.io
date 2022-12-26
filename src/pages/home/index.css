@@ -1,12 +1,104 @@
-header{
-    background-image:url(../../../../public/img/artistic.jpg);
+.ct-column{
+    background-image:url(../../assets/images/banner.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    justify-content: center;
+    background-size: auto;
+    min-height: 35em;
+    margin-bottom: 5em;
+}
+
+.text-initial{
+    padding-left: 2em;
+    padding-top: 10em;
+    padding-right: 45em;
+}
+
+.h3-initial{
+    font-family: 'playfair_displaybold_italic';
+    font-size: 2em;
+    color: #757584;
+}
+
+.h1-initial{
+    font-family: 'playfair_displaybold_italic';
+    color: #795D8E;
+    font-size: 4em;
+}
+
+.h2-initial{
+    font-family: 'playfair_displaybold_italic';
+    font-size: 2em;
+    font-weight: bolder;
+    color: #795D8D;
+}
+
+.h2-initial-p2{
+    font-family: 'playfair_displaybold_italic';
+    font-size: 2em;
+    font-weight: bolder;
+    color: #795D8D;
+    margin: 0em;
+}
+
+.ct-center{
+    display: flex;
     align-items: center;
+    flex-direction: column;
+}
+
+.pl-thanks{
+    font-family: 'playfair_displaybold_italic';
+    font-size: 3em;
+}
+
+.ct-text{
+    margin: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+
+}
+
+.mont-text{
+    font-family: 'montserratregular';
+    font-size: 2em;
+    text-align: center;
+    color: #795D8D;
+}
+
+.a-downl{
+    font-family: 'montserratextrabold';
+    text-transform: uppercase;
+    background-color: #A4D79A;
+    color: #003F1F;
+    padding: 0.8em 3em;
+    font-size: 1em;
+    font-weight:lighter;
+    margin-bottom: 5em;
+}
+
+
+
+    
+@media (max-width: 414px){
+    a{}
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
 }
 
 @media (max-width: 767px){
