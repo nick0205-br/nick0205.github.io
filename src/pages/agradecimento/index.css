@@ -94,6 +94,108 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@media (max-width: 1920px){
+    .ct-column{
+        background-size: cover;
+        min-height: 35em;
+    }
+    .a-downl{
+        font-size: larger;
+        
+    }
+
+}
+
+@media (max-width: 1024px){
+    .ct-column{
+        background-image:url(../../assets/images/banner1024.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        min-height: 35em;
+        margin-bottom: 5em;
+    }
+
+    .text-initial{
+        padding-left: 2em;
+        padding-top: 10em;
+        padding-right: 35em;
+    }
+
+    .h3-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        color: #757584;
+    }
+
+    .h1-initial{
+        font-family: 'playfair_displaybold_italic';
+        color: #795D8E;
+        font-size: 2.9em;
+    }
+
+    .h2-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+    }
+
+    .h2-initial-p2{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+        margin: 0em;
+        margin-bottom: 2.5em;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .ct-column{
+        background-image:url(../../assets/images/banner1024.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        min-height: 35em;
+        margin-bottom: 5em;
+    }
+
+    .text-initial{
+        padding-left: 2em;
+        padding-top: 8em;
+        padding-right: 17em;
+    }
+
+    .h3-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        color: #757584;
+    }
+
+    .h1-initial{
+        font-family: 'playfair_displaybold_italic';
+        color: #795D8E;
+        font-size: 2.5em;
+    }
+
+    .h2-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+    }
+
+    .h2-initial-p2{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+        margin: 0em;
+        margin-bottom: 2.5em;
+    }
+
+}
+
 @media (max-width: 414px){
     .ct-column{
         background-image:url(../../assets/images/banner1024.jpg);
@@ -154,7 +256,6 @@ time, mark, audio, video {
         margin: 5em;
         padding-left: 0em;
         padding-right: 0em;
-}
     }
     
 
@@ -163,8 +264,5 @@ time, mark, audio, video {
     }
 
 }
-
-
-
 
 
