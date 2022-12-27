@@ -200,6 +200,7 @@ input:focus {
     font-size: 1.4em;
     font-weight:lighter;
     margin-bottom: 5em;
+    text-decoration: none;
 }
 
 a:hover{
