@@ -105,6 +105,12 @@ img{
     flex-direction: row;
 }
 
+.ct-texto-p{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .ct-text-p{
     background-color: #f1eff4;
     border-radius: 0.95em;
@@ -231,13 +237,166 @@ time, mark, audio, video {
 }
 
 @media (max-width: 414px){
-    a{}
-}
+    .ct-column{
+        background-image:url(../../assets/images/banner1024.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 35em;
+        margin-bottom: 5em;
+    }
 
-@media (max-width: 767px){
-    a{display: flex;
-    justify-content: flex end;
-    align-content: row;}
+    .text-initial{
+        padding-left: 1em;
+        padding-top: 8em;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h3-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        color: #757584;
+    }
+
+    .h1-initial{
+        font-family: 'playfair_displaybold_italic';
+        color: #795D8E;
+        font-size: 2.5em;
+    }
+
+    .h2-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+    }
+
+    .h2-initial-p2{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+        margin: 0em;
+        margin-bottom: 2.5em;
+    }
+
+    .a-downl{
+        padding: 0.8em 0.2em;
+        font-size: 1em;
+    }
+
+    .mont-text{
+        font-size: 1em;
+    }
+
+    .pl-howto{
+        font-size: xx-large;
+    }
+
+    img{
+        width: 23em;
+        height: 17em;
+    }
+
+    .title{
+        color: #78668e;
+        font-family: 'playfair_displaybold_italic';
+        margin-bottom: 1em;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .content{
+        color: #78668e;
+        font-family: 'montserratregular';
+        line-height: 1em;
+        font-size:medium;
+        margin-top: 1em;
+
+    }
+
+    .ct-texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .ct-texto-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ct-text-p{
+        background-color: #f1eff4;
+        border-radius: 0.95em;
+        width: 20em;
+        height: 16.5em;
+        padding: 1em 1em 1em 1em;
+        margin-right: 0em;
+        margin-top: 0.5em;
+        margin-bottom: 0.9em;
+    }
+
+    .pl-downl{
+        
+        font-size: 2.2em;
+    }
+
+    .ct-text-p-1{
+        background-color: #f1eff4;
+        border-radius: 0.95em;
+        margin-left: 0em;
+        margin-bottom: 2em;
+        width: 20em;
+        height: 16.5em;
+        padding: 1em 1em 1em 1em;
+    }
+
+    .ct-input{
+        padding: 1.5em 3em 1.5em 3em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .inp-text-p1{
+        font-family: 'playfair_displaybold_italic';
+        font-size: larger;
+        width: 17em;
+        height: 3em;
+        padding: 0em;
+        margin-right: 0em;
+        margin-left: 0em;
+        box-sizing: border-box;
+        text-align: start;
+    }
+    
+    .inp-text{
+        font-family: 'playfair_displaybold_italic';
+        font-size: larger;
+        width: 17em;
+        height: 3em;
+        padding: 0em;
+        margin-right: 0em;
+        box-sizing: border-box;
+        text-align: start;
+    }
+
+    .a-downl-2{
+        padding: 1em 5em;
+        font-size: 1.4em;
+        margin-bottom: 5em;
+    }
+
+    .ct-footer{
+        margin-top: 3em;
+    }
 }
 
 @media (max-width: 1024px){
@@ -338,3 +497,99 @@ time, mark, audio, video {
     }
 
 }
+
+@media (max-width: 767px){
+    .ct-column{
+        background-image:url(../../assets/images/banner1024.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        min-height: 35em;
+        margin-bottom: 5em;
+    }
+
+    .text-initial{
+        padding-left: 2em;
+        padding-top: 8em;
+        padding-right: 17em;
+    }
+
+    .h3-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        color: #757584;
+    }
+
+    .h1-initial{
+        font-family: 'playfair_displaybold_italic';
+        color: #795D8E;
+        font-size: 2.5em;
+    }
+
+    .h2-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+    }
+
+    .h2-initial-p2{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+        margin: 0em;
+        margin-bottom: 2.5em;
+    }
+    img{
+        width: 23em;
+        height: 19em;
+    }
+
+    .title{
+        color: #78668e;
+        font-family: 'playfair_displaybold_italic';
+        margin-bottom: 1em;
+        font-size: larger;
+    }
+
+    .content{
+        color: #78668e;
+        font-family: 'montserratregular';
+        line-height: 1em;
+        font-size: small;
+        margin-top: 1em;
+
+    }
+
+    .ct-texto{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .ct-text-p{
+        background-color: #f1eff4;
+        border-radius: 0.95em;
+        width: 15em;
+        height: 16.5em;
+        padding: 1em 1em 1em 1em;
+        margin-right: 1.5em;
+        margin-top: 0.5em;
+    }
+
+    .ct-text-p-1{
+        background-color: #f1eff4;
+        border-radius: 0.95em;
+        margin-left: 1.5em;
+        margin-bottom: 0.9em;
+        width: 15em;
+        height: 16.5em;
+        padding: 1em 1em 1em 1em;
+    }
+
+}
+
+
+
+
+

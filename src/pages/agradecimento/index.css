@@ -54,7 +54,6 @@
     margin: 5em;
     padding-left: 5em;
     padding-right: 5em;
-
 }
 
 .mont-text{
@@ -76,14 +75,6 @@
 }
 
 
-
-    
-@media (max-width: 414px){
-    a{display: flex;
-    justify-content: flex end;
-    align-content: row;}
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -102,3 +93,78 @@ time, mark, audio, video {
 	border: 0;
 	vertical-align: baseline;
 }
+
+@media (max-width: 414px){
+    .ct-column{
+        background-image:url(../../assets/images/banner1024.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 35em;
+        margin-bottom: 5em;
+    }
+
+    .text-initial{
+        padding-left: 1em;
+        padding-top: 8em;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h3-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        color: #757584;
+    }
+
+    .h1-initial{
+        font-family: 'playfair_displaybold_italic';
+        color: #795D8E;
+        font-size: 2.5em;
+    }
+
+    .h2-initial{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+    }
+
+    .h2-initial-p2{
+        font-family: 'playfair_displaybold_italic';
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #795D8D;
+        margin: 0em;
+        margin-bottom: 2.5em;
+    }
+
+    .a-downl{
+        padding: 0.8em 0.8em;
+        font-size: 1em;
+    }
+
+    .mont-text{
+        font-size: 1.5em;
+    }
+
+    .ct-text{
+        margin: 5em;
+        padding-left: 0em;
+        padding-right: 0em;
+}
+    }
+    
+
+    .pl-thanks{
+        font-size: xx-large;
+    }
+
+}
+
+
+
+
+
