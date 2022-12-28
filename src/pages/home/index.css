@@ -101,13 +101,17 @@ img{
 
 .ct-texto{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-right: 5em;
+    padding-left: 5em;
     flex-direction: row;
 }
 
 .ct-texto-p{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-right: 5em;
+    padding-left: 5em;
     flex-direction: row;
 }
 
